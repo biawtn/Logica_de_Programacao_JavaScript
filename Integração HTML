@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>.</title>
+</head>
+<body>
+
+       <!-- Exemplos de exs.
+        0.1 Crie um programa (Cine JS), que leia o nome do filme, sua duração em minutos, um botão que converta minutos em horas, e exiba na tela.  -->
+
+        <h1>Cine JS: Filmes em Cartaz </h1>
+        <form>
+
+            <p> Nome do Filme: <input type="text" class="inName"> </p>
+            <p> Duração(min)<input type="number" class="inDurac"> </p>
+            <p> <button class="ouvinte">Converter em Horas e Minutos</button></p>
+           
+        </form>
+
+        <h3 class="resName"></h3>
+        <h3 class="resDurac"></h3>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
