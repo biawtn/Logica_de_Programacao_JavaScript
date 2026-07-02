@@ -197,6 +197,48 @@
 
 //EXERCÍCIO 02 
 
+//let ouvinte = document.querySelector(".ouvinte")
+// let res = document.querySelector(".res")
+//     ouvinte.addEventListener("click", () => {
+
+//         let velPermit = document.querySelector(".velPermit").value
+//         let velCond = document.querySelector(".velCond").value
+
+//         if(velCond <= velPermit ){
+//             res.innerHTML = `Sem Multa!`
+//         } else if (velCond >= velPermit && velCond <=(velPermit*0.2+velPermit)){
+//             res.innerHTML = `Multa Leve!`
+//         } else if(velCond > (velPermit*0.2+velPermit)){
+//             res.innerHTML = `Multa Grave!!!`
+//         } else{
+//             res.innerHTML = `Digite um valor Válido`
+//         }
+
+//     })
+
+//EXERCÍCIO 04
+
+// let ouvinte = document.querySelector(".ouvinte")
+// let res = document.querySelector(".res")
+
+//     ouvinte.addEventListener("click", () => {
+
+//         let ladoA = +document.querySelector(".ladoA").value
+//         let ladoB = +document.querySelector(".ladoB").value
+//         let ladoC = +document.querySelector(".ladoC").value
+
+//         if(ladoA==ladoB && ladoB==ladoC){
+//             res.innerHTML = `Triângulo Equilátero.`
+//         }
+//          else if(ladoA!==ladoB && ladoB!==ladoC && ladoA!==ladoC){
+//             res.innerHTML = `Triângulo Escaleno.`
+//         }
+//          else {
+//             res.innerHTML = `Triângulo Isóceles.`
+//          }})
+//          console.log("teste")
+
+
 
 
   
